@@ -37,8 +37,10 @@ test("Should count exact words correctly", () => {
 });
 
 test("Should count single character occurrences correctly", () => {
-    const result = countWordsTest("a b c a d a", "a");
-    expect(result).toBe(3);
+    const result1 = countWordsTest("a b c a d a", "a");
+    const result2 = countWordsTest("ambassador", "a");
+    expect(result1).toBe(3);
+    expect(result2).toBe(3);
 });
 
 test("Should count characters inside longer words if includes", () => {
