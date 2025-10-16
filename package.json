@@ -1,0 +1,17 @@
+{
+  "name": "pp3-functions-for-working-with-strings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OleksiyZaluzhnyi/PP3-Functions-for-working-with-strings.git"
+  },
+  "private": true,
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}
